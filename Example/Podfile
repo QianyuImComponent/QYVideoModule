@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYVideoModule_Example' do
+  pod 'QYVideoModule', :path => '../'
+
+  target 'QYVideoModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
