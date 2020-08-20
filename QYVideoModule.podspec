@@ -26,6 +26,5 @@ TODO: 项目视频，单独模块.
   s.source_files  = 'QYVideoModule/Classes/**/*'
   s.dependency 'QYUtilCore'
   
-  
 end
 
