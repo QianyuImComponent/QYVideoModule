@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint QYVideoModule.podspec' to ensure this is a
+# Be sure to run `pod lib lint QYUtilCore.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,35 +8,24 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYVideoModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QYVideoModule.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = '项目视频模块'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 项目视频，单独模块.
                        DESC
 
-  s.homepage         = 'https://github.com/lipengyuan/QYVideoModule'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/QianyuImComponent/QYVideoModule'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lipengyuan' => '1040583846@qq.com' }
-  s.source           = { :git => 'https://github.com/lipengyuan/QYVideoModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'QYVideoModule/Classes/**/*'
+  s.author           = { 'qianyuIm' => '1040583846@qq.com' }
   
-  # s.resource_bundles = {
-  #   'QYVideoModule' => ['QYVideoModule/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
+  s.source           = { :git => 'https://github.com/QianyuImComponent/QYVideoModule.git', :tag => s.version.to_s }
+  s.source_files  = 'QYVideoModule/Classes/**/*'
+  s.dependency 'QYUtilCore'
+  
+  
 end
+

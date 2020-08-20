@@ -1,0 +1,46 @@
+PODS:
+  - HBDNavigationBar (1.7.7)
+  - QYUtilCore (0.0.1):
+    - QYUtilCore/Base (= 0.0.1)
+    - QYUtilCore/Dependent (= 0.0.1)
+    - QYUtilCore/Extensions (= 0.0.1)
+    - QYUtilCore/Route (= 0.0.1)
+  - QYUtilCore/Base (0.0.1):
+    - HBDNavigationBar (~> 1.7.7)
+    - QYUtilCore/Dependent
+    - UINavigation-SXFixSpace (~> 1.2.4)
+  - QYUtilCore/Dependent (0.0.1):
+    - QYUtilCore/Extensions
+  - QYUtilCore/Extensions (0.0.1)
+  - QYUtilCore/Route (0.0.1):
+    - URLNavigator (~> 2.3.0)
+  - QYVideoModule (0.0.1):
+    - QYUtilCore
+  - UINavigation-SXFixSpace (1.2.4)
+  - URLNavigator (2.3.0)
+
+DEPENDENCIES:
+  - QYVideoModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HBDNavigationBar
+    - UINavigation-SXFixSpace
+    - URLNavigator
+  https://github.com/QianyuImComponent/QYPodsSpecs:
+    - QYUtilCore
+
+EXTERNAL SOURCES:
+  QYVideoModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  QYUtilCore: 936c0d75fa6af2188636f9ac7cdc9094f24a3f4a
+  QYVideoModule: aa94aaf09635872a26175324453a4cb757fa38ad
+  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
+
+PODFILE CHECKSUM: 0d824e3f3959e0d8cd1608f15997fe9a269a99c3
+
+COCOAPODS: 1.8.4
