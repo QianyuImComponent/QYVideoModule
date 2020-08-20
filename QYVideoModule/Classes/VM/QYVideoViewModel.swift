@@ -6,7 +6,8 @@
 //
 
 import UIKit
+import QYUtilCore
 
-class QYVideoViewModel: NSObject {
+open class QYVideoViewModel: QYViewModel {
 
 }
